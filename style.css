@@ -40,16 +40,16 @@ cursor: pointer;
 }
 .ol1:hover{
   /* box-shadow: 0px 14px 20px rgba(0, 70, 119, 0.4); */
-  content: "kfnds";
+  /*/
+  /* content: "kfnds";
   padding:35px 5px 5px 15px ;
   transition: 0.8s;
-  cursor: pointer;
+  cursor: pointer; */
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-img{
-   max-width: 100%;
-   height:auto;
-}
+
 
 
 /*------------------------------------landing page--------------------------------------------- */
@@ -210,16 +210,38 @@ z-index: -1;
 
     border-bottom: 2px dashed red;
    margin-top: -150px;
-    z-index: -1;
+    z-index: 2;
     width:55px;
     margin-left:290px
    }
+
+   /* .dots-line .first{
+       position: relative;
+       margin-right : -43px;
+       margin-left : -43px;
+   }
+   .dots-line{
+     top:auto;
+     right:auto;
+     z-index: 2;
+     width:100px;
+     height:1px;
+     padding-top:0;
+     -webkit-box-flex: 1;
+     flex: 1;
+     border-bottom:2px dashed var(--bs-primary);
+   } */
 /*-----------------------------------------------*/
 
 /*-----------product showcase------------------------*/
-.product1, .product2{
+.product1{
   position: relative;
   margin-bottom:600px;
+}
+
+.product2{
+  position: relative;
+  margin-bottom: 100px;
 }
 
 .nimage1{
