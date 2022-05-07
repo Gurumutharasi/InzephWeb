@@ -480,7 +480,7 @@ z-index: -1;
    } */
 /*-----------------------------------------------*/
 /*---------process--------------------------------*/
-/* .text-center {
+.text-center {
   text-align: center !important;
 }
 
@@ -494,37 +494,18 @@ z-index: -1;
 
 .text-center {
   text-align: center !important;
-} */
+}
 
-
-
-/****process***/
 .align-items-center {
   -webkit-box-align: center !important;
   /* -ms-flex-align: center !important; */
   align-items: center !important;
 }
 
-.text-primary {
-  color: var(--bs-primary) !important;
-}
-
 .d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
   display: flex !important;
-}
-.process-card {
-  position: relative;
-  display: block;
-  /* -webkit-transition: all 0.3s ease; */
-  transition: all 0.3s ease;
-}
-.process-card:hover {
-  background: var(--bs-white);
-}
-.shadow-hover:hover {
-  /* -webkit-box-shadow: 0 5px 20px 0 rgba(210, 210, 245, 0.5); */
-  box-shadow: 0 5px 20px 0 rgba(210, 210, 245, 0.5);
-  z-index: 3;
 }
 
 .rounded-custom {
@@ -533,13 +514,6 @@ z-index: -1;
 
 .text-center {
   text-align: center !important;
-}
-.border-light {
-  border-color: rgba(101, 101, 101, 0.1) !important;
-}
-
-.bg-custom-light {
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .py-5 {
@@ -554,14 +528,6 @@ z-index: -1;
 
 .mt-4 {
   margin-top: 1.5rem !important;
-}
-
-.p-3 {
-  padding: 1rem !important;
-}
-
-.process-card:hover .process-icon {
-  background: var(--bs-primary) !important;
 }
 
 .process-icon {
@@ -582,8 +548,28 @@ z-index: -1;
   margin: 0 auto 35px;
 }
 
+.rounded-custom {
+  border-radius: 1rem !important;
+}
+
+.border-light {
+  border-color: rgba(101, 101, 101, 0.1) !important;
+}
+
+.bg-custom-light {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
 .border {
   border: 1px solid #dee2e6 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
 }
 
 .dots-line.first {
@@ -591,9 +577,7 @@ z-index: -1;
   margin-right: -43px;
   margin-left: -43px;
 }
-.mb-0 {
-  margin-bottom: 0 !important;
-}
+
 .dots-line {
   /* position: relative; */
   top: auto;
@@ -607,7 +591,6 @@ z-index: -1;
   flex: 1;
   border-bottom: 2px dashed var(--bs-primary);
 }
-
 /*-----------product showcase------------------------*/
 
 .product1{
