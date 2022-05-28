@@ -13,6 +13,13 @@
 
 
 /*---------------------------------------------*/
+@media (min-width:1000px) {
+  .home-des{
+    padding-top:100px;
+  }
+}
+
+
 .picContainer{
     position: relative;
     margin-bottom:700px;
@@ -52,22 +59,15 @@ cursor: pointer;
 
 .ol1
 {
-  transition: 0.3s;
-
+  transition: transform 0.6s ease;
 cursor: pointer;
 }
 
 
+
+
 .ol1:hover{
-  /* box-shadow: 0px 14px 20px rgba(0, 70, 119, 0.4); */
-  /**/
-  content: "kfnds";
-  /* padding:35px 5px 5px 15px ; */
-  padding:15px;
-  transition: 0.8s;
-  cursor: pointer;
-  /* transform: scale(1.2);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+  transform: translate(20px,-20px) ;
 }
 
 @media(max-width:1200px) {
@@ -113,6 +113,47 @@ cursor: pointer;
 }
 
 /*---------------------------------service section-----------------------------------------*/
+@media (min-width:1000px) {
+  .service-section .service-num{
+    font-size: 130px;
+    text-align: right;
+    color: #F4F4F4;
+  }
+  
+  .service1
+  {
+    background-color: rgb(69, 26, 90);
+    color:#ffffff;
+    padding:0px 40px 40px 40px;
+  }
+  
+  .service2
+  {
+    position: relative;
+    bottom:100px;
+    background-color: #969ba1;
+    padding:0px 40px 40px 40px;
+  }
+  
+  .service3{
+    position: relative;
+    background-color: rgb(69, 26, 90);
+    color:#ffffff;
+    bottom:150px;
+    padding:0px 40px 40px 40px;
+  }
+  
+  .service4
+  {
+    position: relative;
+    bottom:30px;
+    background-color: #969ba1;
+    padding:0px 40px 40px 40px;
+    bottom:80px;
+  }
+}
+
+
 .service-section .service-num{
   font-size: 130px;
   text-align: right;
@@ -124,32 +165,32 @@ cursor: pointer;
   background-color: rgb(69, 26, 90);
   color:#ffffff;
   padding:0px 40px 40px 40px;
+  margin: 10px;
 }
 
 .service2
 {
-  position: relative;
-  bottom:100px;
   background-color: #969ba1;
   padding:0px 40px 40px 40px;
+  margin: 10px;
 }
 
 .service3{
-  position: relative;
   background-color: rgb(69, 26, 90);
   color:#ffffff;
-  bottom:150px;
   padding:0px 40px 40px 40px;
+  margin: 10px;
 }
 
 .service4
 {
-  position: relative;
-  bottom:30px;
   background-color: #969ba1;
   padding:0px 40px 40px 40px;
-  bottom:80px;
+  margin: 10px;
 }
+
+
+
 /*------------------------------------landing page--------------------------------------------- */
 .landing-page{
 
@@ -407,7 +448,8 @@ z-index: -1;
    
 /*-----------------------------------------------*/
 /*---------process--------------------------------*/
-.ptb-120 {
+
+.work-process{
   padding: 120px 0;
 }
 
@@ -459,10 +501,10 @@ z-index: -1;
   margin: 0 auto 35px;
 }
 
-
+/* 
 .border {
   border: 1px solid #dee2e6 !important;
-}
+} */
 
 
 .dots-line.first {
@@ -483,7 +525,7 @@ z-index: -1;
   border-bottom: 2px dashed var(--bs-primary);
 }
 /*-----------product showcase------------------------*/
-
+/* 
 .product1{
   position: relative;
   margin-bottom:  550px;
@@ -521,15 +563,76 @@ z-index: -1;
   }
 }
 
-/* .product1{
-  position: relative;
-  margin-bottom:600px;
-} */
 
-/* .nimage2{
+.nimage1{
+  position: absolute;
+  top: 80px;
+  left : 50px;
+}
+
+
+
+.num1{
+  background-size: 100%;
+  background-image: linear-gradient(to bottom, #4f3dff, #ffffff);
+  font-size: 135px;
+  font-weight: 700;
+  font-family: fira sans, sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  line-height: 1;
+  opacity: 0.2;
+}
+ */
+
+
+.product1{
   position: relative;
-  margin-bottom: 100px;
-} */
+  margin-bottom:  300px;
+}
+
+@media (max-width:1400px) {
+  .product1{
+    position: relative;
+    margin-bottom:250px;
+  }
+}
+
+@media (max-width:1100px) {
+  .product1{
+    position: relative;
+    margin-bottom:160px;
+  }
+}
+
+@media (max-width:800px) {
+  .product1{
+    position: relative;
+    margin-bottom:50px;
+  }
+}
+
+@media (max-width:700px) {
+  .product1{
+    position: relative;
+    margin-bottom:0px;
+  }
+}
+
+@media (max-width:400px) {
+  .product1{
+    position: relative;
+    margin-bottom:0px;
+  }
+  
+  .showcase{
+    margin-bottom: 500px;
+  }
+}
+
 
 .nimage1{
   position: absolute;
@@ -554,28 +657,6 @@ z-index: -1;
   opacity: 0.2;
 }
 
-/* .product2,.nimage2{
-  position: relative;
-  margin-bottom: 100px;
-}
 
-
- .product2 .num2{
-  background-size: 100%;
-  background-image: linear-gradient(to bottom, #4f3dff, #ffffff);
-  font-size: 135px;
-  font-weight: 700;
-  font-family: fira sans, sans-serif;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  z-index: -1;
-  line-height: 1;
-  opacity: 0.2;
-
-  position: absolute;
-  bottom:750px;
-  right : 200px;
-} */
 
 /*------------./product showcase---------------------*/
