@@ -114,6 +114,27 @@ cursor: pointer;
     height:auto;
 }
 }
+/*-------------------------------Phones-----------------------------------*/
+@media (min-width:1000px) {
+
+  .phone2
+  {
+    position: relative;
+    bottom:100px;
+  }
+  
+  .phone3
+  {
+    position: relative;
+    bottom:150px;
+  }
+  
+  .phone4
+  {
+    position: relative;
+    bottom:80px;
+  }
+}
 
 /*---------------------------------service section-----------------------------------------*/
 @media (min-width:1000px) {
@@ -370,8 +391,8 @@ z-index: -1;
 
 
 /*---------------------- Services Item----------------- */
-.services-item {
-    /* width: 80%; */
+/* .services-item {
+ 
     padding: 20px;
     
     border-radius: 4px;
@@ -446,7 +467,7 @@ z-index: -1;
     z-index: 2;
     width:55px;
     margin-left:290px
-   }
+   } */
 
    
 /*-----------------------------------------------*/
